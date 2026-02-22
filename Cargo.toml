@@ -2,6 +2,12 @@
 name = "matoi"
 version = "0.1.0"
 edition = "2021"
+description = "A tmux window browser TUI"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/kuto5046/matoi"
+keywords = ["tmux", "tui", "terminal"]
+categories = ["command-line-utilities"]
 
 [[bin]]
 name = "matoi"
