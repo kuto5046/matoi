@@ -1,0 +1,14 @@
+[package]
+name = "matoi"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "matoi"
+path = "src/main.rs"
+
+[dependencies]
+ratatui = "0.30"
+crossterm = "0.29"
+chrono = { version = "0.4", features = ["clock"] }
+anyhow = "1.0"
